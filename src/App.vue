@@ -1,23 +1,20 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import HexSweeper from './components/HexSweeper.vue'
 import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
+    <span id="logo"></span>
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HexSweeper />
     </div>
   </header>
-
-  <main>
-    <TheWelcome />
-  </main>
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap');
+
 header {
   line-height: 1.5;
 }
