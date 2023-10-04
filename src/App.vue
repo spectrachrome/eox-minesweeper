@@ -5,7 +5,7 @@ import TheWelcome from './components/TheWelcome.vue'
 
 <template>
   <header>
-    <span id="logo"></span>
+    <img id="logo" src="./assets/logo.svg" />
     <div class="wrapper">
       <HexSweeper />
     </div>
@@ -19,9 +19,11 @@ header {
   line-height: 1.5;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+#logo {
+  position: fixed;
+  left: 30px;
+  top: 30px;
+  height: 36px;
 }
 
 @media (min-width: 1024px) {
