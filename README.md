@@ -2,7 +2,7 @@
 
 # Introduction
 
-`eox-minesweeper` is a geospatial variation of the classic Minesweeper game, specifically made for Earth Observation (EO) applications. The engine uses GeoTIFF data to place mines based on real-world satellite data, offering insights into geographic and environmental patterns through interactive gameplay.
+[`eox-minesweeper`](https://github.com/spectrachrome/eox-minesweeper) is a geospatial variation of the classic Minesweeper game, specifically made for Earth Observation (EO) applications. The engine uses GeoTIFF data to place mines based on real-world satellite data, offering insights into geographic and environmental patterns through interactive gameplay.
 
 The game is developed sort of as a plugin for OpenLayers, albeit the map instance is directly being passed into the Minesweeper code for now.
 
